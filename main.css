@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Hind+Vadodara&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Istok+Web&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+}
+
+header .logo {
+    line-height: 30px;
+    padding: 0 100px;
+}
+
+header .logo h1 {
+    float: left;
+    width: 300px;
+}
+
+header .logo h1 a {
+    text-decoration: none;
+    color: #001f3f;
+    font-family: 'Fredoka One', cursive;
+    word-spacing: 8px;
+    letter-spacing: 4px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #001f3f;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 1.3em;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+}
+
+nav ul li a:hover {
+    color:#3D9970;
+}
+
+.after-header {
+    background: url(img/chill.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.after-header .welcome-text {
+    position: absolute;
+    top:60%;
+    left: 10%;
+    width:600px;
+    height:100px;
+    box-shadow: 0px 0px 2px 2px #fff;
+    text-align: center;
+    background: rgba(128, 128, 128, 0.6);
+    vertical-align: middle;
+}
+
+.after-header .welcome-text h1 {
+    color: #001f3f;
+    font-size: 3em;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    word-spacing: 8px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.after-header p {
+    position: absolute;
+    top: 51%;
+    left:10%;
+    color: #fff;
+    font-size: 1.3em;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+.after-header p span {
+    color: #39CCCC;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    font-family: 'Istok Web', sans-serif;
+}
+
+.after-header .button {
+    position: absolute;
+    top: 75%;
+    left: 20%;
+}
+.after-header .button span {
+    position: absolute;
+    background: #001f3f;
+    text-align: center;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: 800;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s all linear;
+}
+
+.after-header .button span:last-of-type {
+    transition: 0 0;
+    transform: rotateX(90deg);
+    background: #39CCCC;
+}
+
+.after-header .button:hover span:last-of-type {
+    transform: rotateX(0deg);
+}
